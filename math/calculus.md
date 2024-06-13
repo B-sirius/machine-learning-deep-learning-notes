@@ -256,8 +256,10 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 实际上：
 
-* 第二行可以写作 _J<sub>f</sub> Δx_
-* 第三行可以写作_Δx<sup>t</sup> H<sub>f</sub> Δx_
+* 结合雅克比矩阵，第二行可以写作 _J<sub>f</sub> Δx_ （注意这里的x其实是加粗的x，代表一组向量）
+* 结合海森矩阵，第三行可以写作_Δx<sup>t</sup> H<sub>f</sub> Δx_ 
+
+![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/d38d787c-4970-45c9-917f-ea6824a5e17b)
 
 ## 约束最大最小值的优化方法
 ## 牛顿-拉弗森方法 Newton-Raphson
