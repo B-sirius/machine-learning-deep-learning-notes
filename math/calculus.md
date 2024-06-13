@@ -237,6 +237,10 @@ H<sub>F</sub>(x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>)_，或者 (<sup>
 </p>
 对于 _cos(x)_ 这样的函数泰勒级数可以很好的拟合，但是对于 _<sup>1</sup>/<sub>x</sub>_ 这样的函数拟合的很糟糕。
 
+如果使用 $\Delta x$ 进行表示：
+
+$$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
+
 ## 多变量泰勒级数 Multivariable Taylor Series
 
 当函数有多变量时，就需要用到多变量泰勒级数，一个例子：
