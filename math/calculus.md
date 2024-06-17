@@ -266,6 +266,8 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 ## [牛顿-拉弗森方法 Newton-Raphson](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95)
 
+用于找到 $f(x)=0$ 的 $x$
+
 基本思路：
 
 ![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/6f57cd27-909b-47c8-a20a-67baf0eef8c8)
@@ -280,7 +282,11 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 <img width="338" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/eb021578-69ef-4ed6-876b-c333fbb006f6">
 
-## 拉格朗日乘数 Lagrange multipliers
+## [拉格朗日乘数 Lagrange multipliers](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0)
+
+用于找到多元函数在其变量受到一个或多个约束时的极值
+
+<img width="468" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/9641cbe9-69e9-441b-ad66-d28a39b61387">
 
 ## 线性回归Linear Regression
 
