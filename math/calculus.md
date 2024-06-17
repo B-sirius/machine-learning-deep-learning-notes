@@ -23,7 +23,6 @@
 	- [多变量泰勒级数 Multivariable Taylor Series](#多变量泰勒级数-multivariable-taylor-series)
 - [约束最大最小值的优化方法](#约束最大最小值的优化方法)
 	- [牛顿-拉弗森方法 Newton-Raphson](#牛顿-拉弗森方法-newton-raphson)
-	- [Gradient Descent](#gradient-descent)
 	- [拉格朗日乘数 Lagrange multipliers](#拉格朗日乘数-lagrange-multipliers)
 - [线性回归Linear Regression](#线性回归linear-regression)
 - [非线性回归 Non-linear Regression](#非线性回归-non-linear-regression)
@@ -264,7 +263,7 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 ## 约束最大最小值的优化方法
 
 
-## [牛顿-拉弗森方法 Newton-Raphson](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95)
+### [牛顿-拉弗森方法 Newton-Raphson](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95)
 
 用于找到 $f(x)=0$ 的 $x$
 
@@ -282,7 +281,7 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 <img width="338" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/eb021578-69ef-4ed6-876b-c333fbb006f6">
 
-## [拉格朗日乘数 Lagrange multipliers](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0)
+### [拉格朗日乘数 Lagrange multipliers](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0)
 
 用于找到多元函数在其变量受到一个或多个约束时的极值
 
