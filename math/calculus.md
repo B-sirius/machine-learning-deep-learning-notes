@@ -276,6 +276,10 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 <img width="336" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/804b8151-ba97-435f-89fa-96c6b72069e8">
 
+当把牛顿法拓展到多个变量的时候，我们就有了[梯度下降法 Gradient Descent](https://zh.wikipedia.org/zh-cn/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95)
+
+<img width="338" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/eb021578-69ef-4ed6-876b-c333fbb006f6">
+
 ## 拉格朗日乘数 Lagrange multipliers
 
 ## 线性回归Linear Regression
