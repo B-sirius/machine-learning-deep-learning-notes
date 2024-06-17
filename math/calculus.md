@@ -262,7 +262,20 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 ![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/d38d787c-4970-45c9-917f-ea6824a5e17b)
 
 ## 约束最大最小值的优化方法
-## 牛顿-拉弗森方法 Newton-Raphson
+
+
+## [牛顿-拉弗森方法 Newton-Raphson](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95)
+
+基本思路：
+
+![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/6f57cd27-909b-47c8-a20a-67baf0eef8c8)
+
+<img width="972" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/8fe03579-7574-4e7c-8612-169c3227b2c4">
+
+当然这个方法并非一直有效，比如下图：
+
+<img width="336" alt="image" src="https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/804b8151-ba97-435f-89fa-96c6b72069e8">
+
 ## 拉格朗日乘数 Lagrange multipliers
 
 ## 线性回归Linear Regression
