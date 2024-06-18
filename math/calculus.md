@@ -291,7 +291,15 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 对于线性回归，我们想要找到最好的m和c，其实就是在尝试找到最小的方差 $X^2$
 
-找最小值，那不就用上导数了，我们去找 $\nabla X^2 = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$
+找最小值，那不就用上导数了，我们去找
+
+$$
+\nabla X^2 =
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix}
+$$
 
 ![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/75acac35-5647-4c54-b688-a1b842e7810f)
 
