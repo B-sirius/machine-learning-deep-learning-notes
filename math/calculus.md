@@ -309,7 +309,7 @@ $$
 
 ## 非线性回归 Non-linear Regression
 
-## 快速下降法 Steepest Descent
+### 快速下降法 Steepest Descent
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?\mathbf{J}=\left[\frac{\partial(\chi^2)}{\partial\mu},\frac{\partial(\chi^2)}{\partial\sigma}\right]" title="\mathbf{J}=\left[\frac{\partial(\chi^2)}{\partial\mu},\frac{\partial(\chi^2)}{\partial\sigma}\right]" />
 </p>
