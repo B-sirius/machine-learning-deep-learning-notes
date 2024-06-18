@@ -289,7 +289,18 @@ $$f(x+\Delta x) = \sum_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}\Delta x^{n}$$
 
 ## 线性回归Linear Regression
 
+对于线性回归，我们想要找到最好的m和c，其实就是在尝试找到最小的方差 $X^2$
+
+找最小值，那不就用上导数了，我们去找 $\nabla X^2 = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$
+
+![image](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/75acac35-5647-4c54-b688-a1b842e7810f)
+
+经过一番运算，可以得到两个等式：
+
+![SCR-20240618-nzqt](https://github.com/B-sirius/machine-learning-deep-learning-notes/assets/15071193/4e93c048-5939-4769-9eda-b5c48d19d25a)
+
 ## 非线性回归 Non-linear Regression
+
 ## 快速下降法 Steepest Descent
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?\mathbf{J}=\left[\frac{\partial(\chi^2)}{\partial\mu},\frac{\partial(\chi^2)}{\partial\sigma}\right]" title="\mathbf{J}=\left[\frac{\partial(\chi^2)}{\partial\mu},\frac{\partial(\chi^2)}{\partial\sigma}\right]" />
